@@ -34,6 +34,6 @@ run: $(IMG)
 	qemu-system-i386 -fda $<
 
 clean:
-	rm -f $(IMG) $(IPL) $(SYS)
+	rm -f $(IMG) $(IPL) $(SYS) $(BOTPAK)
 	rm -f *.bin 
 	rm -f *.o
